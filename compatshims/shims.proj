@@ -152,7 +152,6 @@
   </Target>
 
   <ItemGroup>
-    <Project Include="../netstandard/ref/netstandard.csproj" />
     <Project Include="net461/net461.depproj" />
     <Project Include="netstandard1x/netstandard.builds" />
   </ItemGroup>

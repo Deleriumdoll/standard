@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ref\netstandard.csproj" />
     <ProjectReference Include="..\..\compatshims\shims.proj" />
   </ItemGroup>
 

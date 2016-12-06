@@ -1,7 +1,7 @@
 {
   "Repository": "standard",
   "Definitions": {
-    "Path": ".",
+    "Path": "",
     "Type": "VSTS",
     "BaseUrl":  "https://devdiv.visualstudio.com/DefaultCollection"
   },

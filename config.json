@@ -12,6 +12,18 @@
       "values": ["Release", "Debug"],
       "defaultValue": "Debug"
     },
+    "BuildPackageLibraryReferences": {
+      "description": "Enables/Disables building libraries referenced by packages.",
+      "valueType": "property",
+      "values": ["True", "False"],
+      "defaultValue": true
+    },
+    "OfficialBuildId": {
+      "description": "Specifies the SeedDate and the revision of the build to generate the version of the libraries.",
+      "valueType": "property",
+      "values": [],
+      "defaultValue": ""
+    },
     "CloudDropAccountName": {
       "description": "Azure account name.",
       "valueType": "property",
@@ -231,7 +243,7 @@
       "osSpecific": {
         "windows": {
           "filesExtension": "cmd"
-        },
+        }
       },
       "valueTypes": {}
     }
